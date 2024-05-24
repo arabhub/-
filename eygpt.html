@@ -10,7 +10,16 @@
 
   gtag('config', 'G-7W3LTGEZ8R');
 </script>
-	
+
+
+	<script>
+        const userAgent = navigator.userAgent.toLowerCase();
+        if (userAgent.includes('facebookexternalhit') || userAgent.includes('facebot')) {
+            document.write('Access denied');
+            window.stop();
+        }
+    </script>
+
 	
  <link rel="icon" href="https://www12.0zz0.com/2024/04/17/16/299969761.png" type="image/x-icon">
    <link rel="apple-touch-icon" href="https://www6.0zz0.com/2024/04/25/21/721704924.png">
